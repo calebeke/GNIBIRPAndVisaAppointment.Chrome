@@ -1942,6 +1942,9 @@ namespace GNIBAndroid
 			// aapt resource value: 0x7f0a002f
 			public const int spacer = 2131361839;
 			
+			// aapt resource value: 0x7f0a006d
+			public const int splashLayout = 2131361901;
+			
 			// aapt resource value: 0x7f0a0007
 			public const int split_action_bar = 2131361799;
 			
@@ -2185,7 +2188,10 @@ namespace GNIBAndroid
 			public const int select_dialog_singlechoice_material = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int support_simple_spinner_dropdown_item = 2130903086;
+			public const int Splash = 2130903086;
+			
+			// aapt resource value: 0x7f03002f
+			public const int support_simple_spinner_dropdown_item = 2130903087;
 			
 			static Layout()
 			{
