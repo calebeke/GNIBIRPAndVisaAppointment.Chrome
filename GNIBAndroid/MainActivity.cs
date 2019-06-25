@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace GNIBAndroid
 {
-    [Activity(Label = "GNIBAndroid", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "GNIBAndroid", MainLauncher = false, Icon = "@drawable/irishLogo")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
