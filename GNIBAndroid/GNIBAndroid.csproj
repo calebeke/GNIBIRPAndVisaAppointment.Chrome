@@ -101,10 +101,10 @@
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\drawable\splash_screen.xml">
+    <AndroidResource Include="Resources\Anim\splash_screen.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\Splash.xaml">
+    <AndroidResource Include="Resources\layout\Splash.axml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </AndroidResource>

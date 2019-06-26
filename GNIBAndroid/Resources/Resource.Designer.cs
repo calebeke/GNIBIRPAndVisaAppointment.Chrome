@@ -61,6 +61,9 @@ namespace GNIBAndroid
 			// aapt resource value: 0x7f040009
 			public const int abc_slide_out_top = 2130968585;
 			
+			// aapt resource value: 0x7f04000a
+			public const int splash_screen = 2130968586;
+			
 			static Animation()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -1653,20 +1656,17 @@ namespace GNIBAndroid
 			// aapt resource value: 0x7f02005c
 			public const int notification_icon_background = 2130837596;
 			
-			// aapt resource value: 0x7f020060
-			public const int notification_template_icon_bg = 2130837600;
+			// aapt resource value: 0x7f02005f
+			public const int notification_template_icon_bg = 2130837599;
 			
-			// aapt resource value: 0x7f020061
-			public const int notification_template_icon_low_bg = 2130837601;
+			// aapt resource value: 0x7f020060
+			public const int notification_template_icon_low_bg = 2130837600;
 			
 			// aapt resource value: 0x7f02005d
 			public const int notification_tile_bg = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
 			public const int notify_panel_notification_icon_bg = 2130837598;
-			
-			// aapt resource value: 0x7f02005f
-			public const int splash_screen = 2130837599;
 			
 			static Drawable()
 			{
@@ -1822,6 +1822,9 @@ namespace GNIBAndroid
 			// aapt resource value: 0x7f0a0029
 			public const int image = 2131361833;
 			
+			// aapt resource value: 0x7f0a006f
+			public const int imageView1 = 2131361903;
+			
 			// aapt resource value: 0x7f0a0063
 			public const int info = 2131361891;
 			
@@ -1875,6 +1878,9 @@ namespace GNIBAndroid
 			
 			// aapt resource value: 0x7f0a0040
 			public const int radio = 2131361856;
+			
+			// aapt resource value: 0x7f0a006d
+			public const int relativeLayout1 = 2131361901;
 			
 			// aapt resource value: 0x7f0a0064
 			public const int right_icon = 2131361892;
@@ -1942,9 +1948,6 @@ namespace GNIBAndroid
 			// aapt resource value: 0x7f0a002f
 			public const int spacer = 2131361839;
 			
-			// aapt resource value: 0x7f0a006d
-			public const int splashLayout = 2131361901;
-			
 			// aapt resource value: 0x7f0a0007
 			public const int split_action_bar = 2131361799;
 			
@@ -1980,6 +1983,9 @@ namespace GNIBAndroid
 			
 			// aapt resource value: 0x7f0a0034
 			public const int textSpacerNoTitle = 2131361844;
+			
+			// aapt resource value: 0x7f0a006e
+			public const int textView1 = 2131361902;
 			
 			// aapt resource value: 0x7f0a0061
 			public const int time = 2131361889;
