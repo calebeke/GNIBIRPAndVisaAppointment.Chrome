@@ -2,17 +2,17 @@
 using Android.Widget;
 using Android.OS;
 
-namespace Android
+namespace GNIBMobile
 {
-    [Activity(Label = "GNIB/IRP", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "GNIB/IRP", MainLauncher = false, Icon = "@drawable/irishLogo")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
 
-            // Set our view from the "main"  resource
-            SetContentView (Resource.Layout.Main);
+            // Set our view from the "main" layout resource
+             SetContentView (Resource.Layout.Main);
         }
     }
 }
