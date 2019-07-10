@@ -1,0 +1,13 @@
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\android\assets\GNIBMobile.dll
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\android\assets\Java.Interop.dll
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\android\assets\Microsoft.CSharp.dll
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\android\assets\Mono.Android.dll
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\android\assets\mscorlib.dll
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\android\assets\System.Core.dll
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\android\assets\System.dll
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\android\assets\System.Xml.dll
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\android\assets\System.Xml.Linq.dll
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\android\assets\System.Net.Http.dll
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\android\assets\System.Runtime.Serialization.dll
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\android\assets\Mono.Security.dll

@@ -6,15 +6,17 @@
     p1:layout_height="match_parent"  
     p1:background="@android:color/white"  
     p1:id="@+id/relativeLayout1">
-    <TextView  
-        p1:text="GNIB/IRP VISA APPOINTMENT BOOKING"  
-        p1:layout_width="wrap_content"  
-        p1:layout_height="wrap_content"  
-        p1:textSize="30dp"  
-        p1:textColor="@android:color/black"  
-        p1:layout_alignParentBottom="true"  
-        p1:layout_centerHorizontal="true"  
-        p1:id="@+id/textView1" />
+	
+	<TextView
+		p1:text="GNIB/IRP VISA APPOINTMENT BOOKING"
+		p1:layout_width="wrap_content"
+		p1:layout_height="wrap_content"
+		p1:textSize="30dp"
+		p1:textColor="@android:color/holo_green_light"
+		p1:layout_alignParentBottom="true"
+		p1:layout_centerHorizontal="true"
+		p1:id="@+id/textView1"
+		p1:textAlignment="center" />
     <ImageView  
         p1:layout_width="wrap_content"  
         p1:layout_height="wrap_content"  

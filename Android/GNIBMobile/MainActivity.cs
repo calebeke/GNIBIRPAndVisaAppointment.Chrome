@@ -5,15 +5,23 @@ using Android.OS;
 namespace GNIBMobile
 {
     [Activity(Label = "GNIB/IRP", MainLauncher = false, Icon = "@drawable/irishLogo")]
-    public class MainActivity : Activity
+    public class MainActivity : NavBarPage
     {
-        protected override void OnCreate(Bundle bundle)
-        {
-            base.OnCreate(bundle);
+        NavBarPageMaster masterPage;
 
-            // Set our view from the "main" layout resource
-             SetContentView (Resource.Layout.Main);
+        public MainActivity()
+        {
+            masterPage = new NavBarPageMaster();
+            Master = masterPage;
+            Detail = new NavigationPage(new NavBarPageDetail());
+
+            //protected override void OnCreate(Bundle bundle)
+            //{
+            //    base.OnCreate(bundle);
+
+            //    // Set our view from the "main" layout resource
+            //     SetContentView (Resource.Layout.Main);
+            //}
         }
-    }
 }
 
