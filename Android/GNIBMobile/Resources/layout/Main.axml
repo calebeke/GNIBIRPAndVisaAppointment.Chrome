@@ -7,9 +7,28 @@
 	p1:background="@android:color/white"
 	p1:minWidth="25px"
 	p1:minHeight="25px">
-	<Button
+	<Button 
 		p1:text="Press me"
 		p1:layout_width="match_parent"
 		p1:layout_height="wrap_content"
 		p1:id="@+id/button1" />
+	
+	<LinearLayout
+		p1:orientation="horizontal"
+		p1:minWidth="25px"
+		p1:minHeight="25px"
+		p1:layout_width="match_parent"
+		p1:layout_height="wrap_content"
+		p1:id="@+id/l1"
+		p1:padding="20 px" 
+		>
+	<TextView
+		p1:text="Small Text"
+		p1:textAppearance="?android:attr/textAppearanceSmall"
+		p1:layout_width="match_parent"
+		p1:layout_height="wrap_content"
+		p1:id="@+id/textView1" />
+		<
+	</LinearLayout>
+	
 </LinearLayout>

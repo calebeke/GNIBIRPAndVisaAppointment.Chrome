@@ -1,6 +1,0 @@
-GNIBMobile.MainActivity, GNIBMobile;md5ab14fa1a03e3b303e586c3fcbc69e458.MainActivity
-GNIBMobile.MainActivity;md5ab14fa1a03e3b303e586c3fcbc69e458.MainActivity
-gnibmobile.MainActivity;md5ab14fa1a03e3b303e586c3fcbc69e458.MainActivity
-GNIBMobile.Splash, GNIBMobile;md5ab14fa1a03e3b303e586c3fcbc69e458.Splash
-GNIBMobile.Splash;md5ab14fa1a03e3b303e586c3fcbc69e458.Splash
-gnibmobile.Splash;md5ab14fa1a03e3b303e586c3fcbc69e458.Splash
