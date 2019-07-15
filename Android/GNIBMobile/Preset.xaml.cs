@@ -14,7 +14,7 @@ namespace GNIBMobile
     {
         public Preset()
         {
-            InitializeComponent();
+            //InitializeComponent();
         }
     }
 }

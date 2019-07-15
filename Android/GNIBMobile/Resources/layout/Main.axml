@@ -20,7 +20,7 @@
 		p1:layout_width="match_parent"
 		p1:layout_height="wrap_content"
 		p1:id="@+id/l1"
-		p1:padding="20 px" 
+		
 		>
 	<TextView
 		p1:text="Small Text"
@@ -28,7 +28,7 @@
 		p1:layout_width="match_parent"
 		p1:layout_height="wrap_content"
 		p1:id="@+id/textView1" />
-		<
+		
 	</LinearLayout>
 	
 </LinearLayout>

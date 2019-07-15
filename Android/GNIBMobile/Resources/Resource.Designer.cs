@@ -82,11 +82,14 @@ namespace GNIBMobile
 			// aapt resource value: 0x7f060000
 			public const int button1 = 2131099648;
 			
-			// aapt resource value: 0x7f060003
-			public const int imageView1 = 2131099651;
+			// aapt resource value: 0x7f060004
+			public const int imageView1 = 2131099652;
 			
 			// aapt resource value: 0x7f060001
-			public const int relativeLayout1 = 2131099649;
+			public const int l1 = 2131099649;
+			
+			// aapt resource value: 0x7f060003
+			public const int relativeLayout1 = 2131099651;
 			
 			// aapt resource value: 0x7f060002
 			public const int textView1 = 2131099650;
