@@ -39,6 +39,7 @@ namespace GNIBMobile
         {
             Finish();
             StartActivity(typeof(MainActivity));
+            
         }
         //protected override void OnCreate(Bundle savedInstanceState)
         //{

@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-	xmlns:p1="http://schemas.android.com/apk/res/android"
-	p1:orientation="vertical"
-	p1:layout_width="match_parent"
-	p1:layout_height="match_parent"
-	p1:background="@android:color/white"
-	p1:minWidth="25px"
-	p1:minHeight="25px">
-	<Button 
-		p1:text="Press me"
-		p1:layout_width="match_parent"
-		p1:layout_height="wrap_content"
-		p1:id="@+id/button1" />
-	
-	<LinearLayout
-		p1:orientation="horizontal"
-		p1:minWidth="25px"
-		p1:minHeight="25px"
-		p1:layout_width="match_parent"
-		p1:layout_height="wrap_content"
-		p1:id="@+id/l1"
-		
-		>
-	<TextView
-		p1:text="Small Text"
-		p1:textAppearance="?android:attr/textAppearanceSmall"
-		p1:layout_width="match_parent"
-		p1:layout_height="wrap_content"
-		p1:id="@+id/textView1" />
-		
-	</LinearLayout>
-	
-</LinearLayout>
+<LinearLayout  
+            xmlns:android="http://schemas.android.com/apk/res/android"  
+            xmlns:app="http://schemas.android.com/apk/res-auto"  
+        android:orientation="vertical"  
+        android:layout_width="match_parent"  
+        android:fitsSystemWindows="true"  
+        android:layout_height="match_parent">  
+        <android.support.v7.widget.Toolbar  
+                android:id="@+id/toolbar"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"  
+                android:minHeight="?attr/actionBarSize"  
+                android:background="#33B86C"  
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"  
+                />  
+      <android.support.v4.widget.DrawerLayout  
+                android:id="@+id/drawer_layout"  
+                android:layout_height="match_parent"  
+                android:fitsSystemWindows="true"  
+                android:layout_width="match_parent">  
+        <RelativeLayout  
+                android:orientation="vertical"  
+                android:layout_width="match_parent"  
+                android:layout_height="match_parent" />  
+        <android.support.design.widget.NavigationView  
+                android:id="@+id/nav_view"  
+                android:layout_height="match_parent"  
+                android:layout_width="200dp"  
+                android:layout_gravity="start"  
+                android:fitsSystemWindows="true" 
+                app:menu="@menu/menu"
+                 />  
+    </android.support.v4.widget.DrawerLayout>  
+</LinearLayout> 
