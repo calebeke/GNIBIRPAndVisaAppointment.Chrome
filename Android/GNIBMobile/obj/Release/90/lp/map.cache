@@ -36,3 +36,8 @@ Xamarin.Android.Support.ViewPager
 Xamarin.Forms.Core
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
+FormsViewGroup
+Xamarin.Android.Support.CustomTabs
+Xamarin.Android.Support.Media.Compat
+Xamarin.Android.Support.v4
+Xamarin.Forms.Platform.Android

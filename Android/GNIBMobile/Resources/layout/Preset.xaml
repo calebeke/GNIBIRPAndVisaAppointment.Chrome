@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GNIBMobile.Preset"
+             >
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="CenterAndExpand" Padding="15">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Category:"></Label>
+                <Picker x:Name="cat">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>All</x:String>
+                            <x:String>Work</x:String>
+                            <x:String>Study</x:String>
+                            <x:String>Visit</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Sub Category:"></Label>
+                <Picker x:Name="subcat">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>All</x:String>
+                           
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Declaration:"></Label>
+                <CheckBox BindingContext="I confirm that all of the above statements are true.">  </CheckBox>
+            </StackLayout>
+            
+            <Label Text="Address"></Label>
+            <Editor></Editor>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Other Name:"></Label>
+                <Entry Placeholder="your names here"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Surname:"></Label>
+                <Entry Placeholder="your surname here"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Date of Birth:"></Label>
+                <DatePicker></DatePicker>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Nationality:"></Label>
+                <Picker></Picker>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="E-mail:"></Label>
+                <Entry Placeholder="email@.whatever"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Confirm E-mail:"></Label>
+                <Entry Placeholder="input your E-mail again"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Family Applicant(s):"></Label>
+                <CheckBox></CheckBox>
+                <Picker x:Name="applicant">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="No Passport Reason:"></Label>
+                <Entry Placeholder="Your reason here"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Save" TextColor="White" BackgroundColor="LightGreen"></Button>
+                <Button Text="Clear" TextColor="White" BackgroundColor="Blue"></Button>
+                <Button Text="Cancel" TextColor="White" BackgroundColor="Red"></Button>
+                <Picker></Picker>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

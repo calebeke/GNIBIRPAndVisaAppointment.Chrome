@@ -2,4 +2,63 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">GNIBMobile</string>
+  <string-array name="category">
+    <item>All</item>
+    <item>Study</item>
+    <item>Work</item>
+    <item>Others</item>
+  </string-array>
+  
+  <!--subcat for all-->
+  <string-array name="All">
+    <item>All</item>
+  </string-array>
+  
+  <!--subcat for study-->
+  <string-array name="Study">
+    <item>PhD</item>
+    <item>Masters</item>
+    <item>Higher Diploma</item>
+    <item>English Language Course</item>
+    <item>Second Level</item>
+    <item>Pre-Masters</item>
+    <item>Visiting Students</item>
+    <item>3rd Level Graduate Scheme</item>
+  </string-array>
+  
+  <!--subcat for work-->
+  <string-array name="Work">
+    <item>Work Permit Holder</item>
+    <item>Hosting Agreement</item>
+    <item>Working Holiday</item>
+    <item>A typical working Schemes</item>
+    <item>Invest Or Start a Business</item>
+    <item>Visiting Academics</item>
+    <item>Doctor</item>
+    <item>3rd Level Graduate Scheme</item>
+  </string-array>
+
+  <!--subcat for other-->
+  <string-array name="Other">
+    <item>Lost Card</item>
+    <item>Stolen Card</item>
+    <item>Join Family Member</item>
+    <item>Permission Letter</item>
+    <item>Invest Or Start a Business</item>
+    <item>Visiting Academics</item>
+    <item>Doctor</item>
+    <item>3rd Level Graduate Scheme</item>
+  </string-array>
+  
+  <!--data for family applicants spinner-->
+  <string-array name="numApplicants">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+  </string-array>
 </resources>
