@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
-    "",
     "\\Android",
+    "\\Android\\GNIBMobile",
     "\\Android\\GNIBMobile\\Resources",
     "\\Android\\GNIBMobile\\Resources\\layout"
   ],
-  "SelectedNode": "\\Android\\GNIBAndroid.sln",
   "PreviewInSolutionExplorer": false
 }
