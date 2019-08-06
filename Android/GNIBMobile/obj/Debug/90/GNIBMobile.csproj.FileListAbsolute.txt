@@ -1,0 +1,7 @@
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\GNIBMobile.nuget.stamp
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\GNIBMobile.csprojAssemblyReference.cache
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\libraryimports.cache.stamp
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\res.flag
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\Resources\layout\Preset.xaml.g.cs
+C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\GNIBMobile.csproj.CoreCompileInputs.cache
