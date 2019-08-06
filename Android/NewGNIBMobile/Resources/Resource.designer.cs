@@ -2378,6 +2378,9 @@ namespace NewGNIBMobile
 			// aapt resource value: 0x7f080036
 			public const int SYM = 2131230774;
 			
+			// aapt resource value: 0x7f0800b2
+			public const int Subcat = 2131230898;
+			
 			// aapt resource value: 0x7f0800a1
 			public const int action0 = 2131230881;
 			
@@ -2429,8 +2432,8 @@ namespace NewGNIBMobile
 			// aapt resource value: 0x7f08005b
 			public const int action_mode_close_button = 2131230811;
 			
-			// aapt resource value: 0x7f0800ba
-			public const int action_settings = 2131230906;
+			// aapt resource value: 0x7f0800c1
+			public const int action_settings = 2131230913;
 			
 			// aapt resource value: 0x7f0800a0
 			public const int action_text = 2131230880;
@@ -2474,6 +2477,9 @@ namespace NewGNIBMobile
 			// aapt resource value: 0x7f0800a2
 			public const int cancel_action = 2131230882;
 			
+			// aapt resource value: 0x7f0800b1
+			public const int cat = 2131230897;
+			
 			// aapt resource value: 0x7f080044
 			public const int center = 2131230788;
 			
@@ -2498,8 +2504,11 @@ namespace NewGNIBMobile
 			// aapt resource value: 0x7f080038
 			public const int collapseActionView = 2131230776;
 			
-			// aapt resource value: 0x7f080090
-			public const int container = 2131230864;
+			// aapt resource value: 0x7f0800b7
+			public const int conemail = 2131230903;
+			
+			// aapt resource value: 0x7f08008e
+			public const int container = 2131230862;
 			
 			// aapt resource value: 0x7f080065
 			public const int contentPanel = 2131230821;
@@ -2512,6 +2521,9 @@ namespace NewGNIBMobile
 			
 			// aapt resource value: 0x7f08006b
 			public const int customPanel = 2131230827;
+			
+			// aapt resource value: 0x7f0800b5
+			public const int declaration = 2131230901;
 			
 			// aapt resource value: 0x7f080079
 			public const int decor_content_parent = 2131230841;
@@ -2542,6 +2554,9 @@ namespace NewGNIBMobile
 			
 			// aapt resource value: 0x7f08007d
 			public const int edit_query = 2131230845;
+			
+			// aapt resource value: 0x7f0800b6
+			public const int email = 2131230902;
 			
 			// aapt resource value: 0x7f08002f
 			public const int end = 2131230767;
@@ -2609,14 +2624,17 @@ namespace NewGNIBMobile
 			// aapt resource value: 0x7f0800ab
 			public const int info = 2131230891;
 			
+			// aapt resource value: 0x7f0800b3
+			public const int irpCheck = 2131230899;
+			
 			// aapt resource value: 0x7f080058
 			public const int italic = 2131230808;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
 			
-			// aapt resource value: 0x7f08008f
-			public const int largeLabel = 2131230863;
+			// aapt resource value: 0x7f080090
+			public const int largeLabel = 2131230864;
 			
 			// aapt resource value: 0x7f080048
 			public const int left = 2131230792;
@@ -2633,14 +2651,14 @@ namespace NewGNIBMobile
 			// aapt resource value: 0x7f080060
 			public const int list_item = 2131230816;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int masked = 2131230899;
+			// aapt resource value: 0x7f0800bb
+			public const int masked = 2131230907;
 			
 			// aapt resource value: 0x7f0800a4
 			public const int media_actions = 2131230884;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int message = 2131230897;
+			// aapt resource value: 0x7f0800b9
+			public const int message = 2131230905;
 			
 			// aapt resource value: 0x7f080030
 			public const int middle = 2131230768;
@@ -2651,23 +2669,20 @@ namespace NewGNIBMobile
 			// aapt resource value: 0x7f080026
 			public const int multiply = 2131230758;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int nav_camera = 2131230900;
+			// aapt resource value: 0x7f0800bc
+			public const int nav_appoint = 2131230908;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int nav_gallery = 2131230901;
+			// aapt resource value: 0x7f0800bd
+			public const int nav_cancel = 2131230909;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int nav_manage = 2131230903;
+			// aapt resource value: 0x7f0800be
+			public const int nav_preset = 2131230910;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int nav_send = 2131230905;
+			// aapt resource value: 0x7f0800c0
+			public const int nav_send = 2131230912;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int nav_share = 2131230904;
-			
-			// aapt resource value: 0x7f0800b6
-			public const int nav_slideshow = 2131230902;
+			// aapt resource value: 0x7f0800bf
+			public const int nav_share = 2131230911;
 			
 			// aapt resource value: 0x7f08008b
 			public const int nav_view = 2131230859;
@@ -2677,6 +2692,9 @@ namespace NewGNIBMobile
 			
 			// aapt resource value: 0x7f08003a
 			public const int never = 2131230778;
+			
+			// aapt resource value: 0x7f0800b8
+			public const int noApplicant = 2131230904;
 			
 			// aapt resource value: 0x7f080021
 			public const int none = 2131230753;
@@ -2795,8 +2813,8 @@ namespace NewGNIBMobile
 			// aapt resource value: 0x7f080024
 			public const int showTitle = 2131230756;
 			
-			// aapt resource value: 0x7f08008e
-			public const int smallLabel = 2131230862;
+			// aapt resource value: 0x7f08008f
+			public const int smallLabel = 2131230863;
 			
 			// aapt resource value: 0x7f080095
 			public const int snackbar_action = 2131230869;
@@ -2851,6 +2869,9 @@ namespace NewGNIBMobile
 			
 			// aapt resource value: 0x7f08009d
 			public const int textView = 2131230877;
+			
+			// aapt resource value: 0x7f0800b4
+			public const int textView2 = 2131230900;
 			
 			// aapt resource value: 0x7f08009b
 			public const int text_input_password_toggle = 2131230875;
@@ -2912,8 +2933,8 @@ namespace NewGNIBMobile
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int visible = 2131230898;
+			// aapt resource value: 0x7f0800ba
+			public const int visible = 2131230906;
 			
 			// aapt resource value: 0x7f08003b
 			public const int withText = 2131230779;
@@ -3158,19 +3179,22 @@ namespace NewGNIBMobile
 			public const int notification_template_part_time = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int select_dialog_item_material = 2130968636;
+			public const int preset_form = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int select_dialog_multichoice_material = 2130968637;
+			public const int select_dialog_item_material = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int select_dialog_singlechoice_material = 2130968638;
+			public const int select_dialog_multichoice_material = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int support_simple_spinner_dropdown_item = 2130968639;
+			public const int select_dialog_singlechoice_material = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int tooltip = 2130968640;
+			public const int support_simple_spinner_dropdown_item = 2130968640;
+			
+			// aapt resource value: 0x7f040041
+			public const int tooltip = 2130968641;
 			
 			static Layout()
 			{
@@ -3212,6 +3236,9 @@ namespace NewGNIBMobile
 			
 			// aapt resource value: 0x7f030002
 			public const int ic_launcher_round = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int irishLogo2 = 2130903043;
 			
 			static Mipmap()
 			{

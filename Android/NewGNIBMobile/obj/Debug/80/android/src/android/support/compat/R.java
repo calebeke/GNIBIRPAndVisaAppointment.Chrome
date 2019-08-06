@@ -2980,7 +2980,7 @@ containing a value of this type.
         public static int action_mode_bar=0x7f080078;
         public static int action_mode_bar_stub=0x7f080077;
         public static int action_mode_close_button=0x7f08005b;
-        public static int action_settings=0x7f0800ba;
+        public static int action_settings=0x7f0800b9;
         public static int action_text=0x7f0800a0;
         public static int actions=0x7f0800ae;
         public static int activity_chooser_view_content=0x7f08005c;
@@ -3054,12 +3054,11 @@ containing a value of this type.
         public static int middle=0x7f080030;
         public static int mini=0x7f080052;
         public static int multiply=0x7f080026;
-        public static int nav_camera=0x7f0800b4;
-        public static int nav_gallery=0x7f0800b5;
-        public static int nav_manage=0x7f0800b7;
-        public static int nav_send=0x7f0800b9;
-        public static int nav_share=0x7f0800b8;
-        public static int nav_slideshow=0x7f0800b6;
+        public static int nav_appoint=0x7f0800b4;
+        public static int nav_cancel=0x7f0800b5;
+        public static int nav_preset=0x7f0800b6;
+        public static int nav_send=0x7f0800b8;
+        public static int nav_share=0x7f0800b7;
         public static int nav_view=0x7f08008b;
         public static int navigation_header_container=0x7f080096;
         public static int never=0x7f08003a;
@@ -3232,6 +3231,7 @@ containing a value of this type.
         public static int ic_launcher=0x7f030000;
         public static int ic_launcher_foreground=0x7f030001;
         public static int ic_launcher_round=0x7f030002;
+        public static int irishlogo2=0x7f030003;
     }
     public static final class string {
         public static int abc_action_bar_home_description=0x7f090000;

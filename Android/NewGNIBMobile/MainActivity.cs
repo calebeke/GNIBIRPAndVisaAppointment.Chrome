@@ -8,12 +8,14 @@ using Android.Support.V4.View;
 using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Views;
+using Android.Widget;
 
 namespace NewGNIBMobile
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, NavigationView.IOnNavigationItemSelectedListener
     {
+        Android.Support.V4.App.Fragment frag;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -74,22 +76,22 @@ namespace NewGNIBMobile
         {
             int id = item.ItemId;
 
-            if (id == Resource.Id.nav_camera)
+            if (id == Resource.Id.nav_appoint)
             {
                 // Handle the camera action
             }
-            else if (id == Resource.Id.nav_gallery)
+            else if (id == Resource.Id.nav_cancel)
             {
 
             }
-            else if (id == Resource.Id.nav_slideshow)
+            else if (id == Resource.Id.nav_preset)
             {
-
+                
+                Toast.MakeText(this, "Action selected: Appoint",
+    ToastLength.Short).Show();
+                 frag = new PresetFrag();
             }
-            else if (id == Resource.Id.nav_manage)
-            {
-
-            }
+          
             else if (id == Resource.Id.nav_share)
             {
 
@@ -98,9 +100,14 @@ namespace NewGNIBMobile
             {
 
             }
-
+            SupportFragmentManager
+       .BeginTransaction()
+       .AddToBackStack(null)
+       .Replace(Resource.Id.container, frag, "preset")
+       .Commit();
             DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             drawer.CloseDrawer(GravityCompat.Start);
+            
             return true;
         }
     }
