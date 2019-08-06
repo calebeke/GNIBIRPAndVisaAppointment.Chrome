@@ -4,3 +4,4 @@ config.js
 /.vs/ProjectSettings.json
 /.vs/slnx.sqlite
 /Android/Android
+/Android/GNIBMobile/obj/
