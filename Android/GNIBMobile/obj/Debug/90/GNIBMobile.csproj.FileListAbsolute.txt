@@ -5,3 +5,13 @@ C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\o
 C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\res.flag
 C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\Resources\layout\Preset.xaml.g.cs
 C:\Users\john\Source\Repos\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\GNIBMobile.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\user\Source\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\build.props
+C:\Users\user\Source\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\adb.props
+C:\Users\user\Source\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\GNIBMobile.csprojAssemblyReference.cache
+C:\Users\user\Source\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\user\Source\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\resourcepaths.cache
+C:\Users\user\Source\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\res.flag
+C:\Users\user\Source\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\R.cs.flag
+C:\Users\user\Source\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\Resources\layout\Preset.xaml.g.cs
+C:\Users\user\Source\GNIBIRPAndVisaAppointment.Chrome\Android\GNIBMobile\obj\Debug\90\GNIBMobile.csproj.CoreCompileInputs.cache

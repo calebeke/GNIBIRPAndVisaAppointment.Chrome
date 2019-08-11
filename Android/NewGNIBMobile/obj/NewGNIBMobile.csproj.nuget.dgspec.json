@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\user\\Source\\GNIBIRPAndVisaAppointment.Chrome\\Android\\NewGNIBMobile\\NewGNIBMobile.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\user\\Source\\GNIBIRPAndVisaAppointment.Chrome\\Android\\NewGNIBMobile\\NewGNIBMobile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Source\\GNIBIRPAndVisaAppointment.Chrome\\Android\\NewGNIBMobile\\NewGNIBMobile.csproj",
+        "projectName": "NewGNIBMobile",
+        "projectPath": "C:\\Users\\user\\Source\\GNIBIRPAndVisaAppointment.Chrome\\Android\\NewGNIBMobile\\NewGNIBMobile.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\GNIBIRPAndVisaAppointment.Chrome\\Android\\NewGNIBMobile\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/xamarinforms-dev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Crosslight.Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[25.3.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[26.1.0.1, )"
+            },
+            "sqlite-net": {
+              "target": "Package",
+              "version": "[1.6.249-beta, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.5.231, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

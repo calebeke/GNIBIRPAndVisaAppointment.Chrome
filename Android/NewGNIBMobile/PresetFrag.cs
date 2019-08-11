@@ -18,8 +18,8 @@ namespace NewGNIBMobile
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-            // Create your fragment here
+           
+           
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
@@ -32,6 +32,22 @@ namespace NewGNIBMobile
             //}
             var view = inflater.Inflate(Resource.Layout.preset_form, container, false);
             return view;
+            
         }
+        public override void OnViewCreated(View view, Bundle savedInstanceState)
+        {
+            base.OnViewCreated(view, savedInstanceState);
+            Button btnsave = (Button) view.FindViewById(Resource.Id.saveBut);
+            TextView tsample = (TextView)view.FindViewById(Resource.Id.sample);
+            btnsave.Click += delegate {  tsample.Text="successful texting"; };
+        }
+
+        private void Save()
+        {
+
+           
+        }
+
+       
     }
 }

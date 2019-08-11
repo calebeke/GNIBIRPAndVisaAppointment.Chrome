@@ -12,16 +12,19 @@ using Android.Widget;
 
 namespace NewGNIBMobile
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
+    [Activity(Label = "GNIB/IRP", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, NavigationView.IOnNavigationItemSelectedListener
     {
-        Android.Support.V4.App.Fragment frag;
+       /* Android.Support.V4.App.Fragment frag;*/ TabLayout tabLayout;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+             tabLayout = (TabLayout)FindViewById(Resource.Id.tab_layout) ;
             SetSupportActionBar(toolbar);
+
+            
 
             FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
             fab.Click += FabOnClick;
@@ -33,7 +36,27 @@ namespace NewGNIBMobile
 
             NavigationView navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
             navigationView.SetNavigationItemSelectedListener(this);
+          
+
+           
         }
+
+        
+
+        //private void OnTabSelected(object sender, Android.App.ActionBar.TabEventArgs e)
+        //{
+        //    var CurrentTab = (Android.App.ActionBar.Tab)sender;
+
+        //    if (CurrentTab.Position == 0)
+        //    {
+        //        e.FragmentTransaction.Replace(Resource.Id.container, new NewDFrag());
+        //    }
+
+        //    else
+        //    {
+        //        e.FragmentTransaction.Replace(Resource.Id.container, new RenewDFrag());
+        //    }
+        //}
 
         public override void OnBackPressed()
         {
@@ -72,13 +95,25 @@ namespace NewGNIBMobile
                 .SetAction("Action", (Android.Views.View.IOnClickListener)null).Show();
         }
 
+        private void ReplaceFragment(Android.Support.V4.App.Fragment fragment)
+        {
+            SupportFragmentManager
+             .BeginTransaction()
+       .AddToBackStack(null)
+       .Replace(Resource.Id.container, fragment)
+       .Commit();
+        }
         public bool OnNavigationItemSelected(IMenuItem item)
         {
             int id = item.ItemId;
-
+           
             if (id == Resource.Id.nav_appoint)
             {
-                // Handle the camera action
+                // tabLayout.Visibility = ViewStates.Visible;
+
+                tabLayout.AddTab(tabLayout.NewTab().SetText("New"));
+                tabLayout.AddTab(tabLayout.NewTab().SetText("Renew"));
+                ReplaceFragment(new NewDFrag());
             }
             else if (id == Resource.Id.nav_cancel)
             {
@@ -89,7 +124,7 @@ namespace NewGNIBMobile
                 
                 Toast.MakeText(this, "Action selected: Appoint",
     ToastLength.Short).Show();
-                 frag = new PresetFrag();
+                ReplaceFragment(new PresetFrag()); 
             }
           
             else if (id == Resource.Id.nav_share)
@@ -100,16 +135,14 @@ namespace NewGNIBMobile
             {
 
             }
-            SupportFragmentManager
-       .BeginTransaction()
-       .AddToBackStack(null)
-       .Replace(Resource.Id.container, frag, "preset")
-       .Commit();
+      
             DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             drawer.CloseDrawer(GravityCompat.Start);
             
             return true;
         }
+
+       
     }
 }
 

@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AppTheme.NoActionBar">
+    <style name="AppTheme.ActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
@@ -16,5 +16,17 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+  <style name="CustomDatePickerDialog" parent="">
+    <item name="android:dialogTheme">@style/MyDialogTheme</item>
+    <item name="android:datePickerStyle">@style/MyDatePicker</item>
+  </style>
+
+  <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+    <item name="android:datePickerStyle">@style/MyDatePicker</item>
+  </style>
+
+  <style name="MyDatePicker" parent="@android:style/Widget.Material.DatePicker">
+    <item name="android:datePickerMode">spinner</item>
+  </style>
 
 </resources>

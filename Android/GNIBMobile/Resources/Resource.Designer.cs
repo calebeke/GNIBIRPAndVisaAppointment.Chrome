@@ -5707,9 +5707,6 @@ namespace GNIBMobile
 			// aapt resource value: 0x7f09003e
 			public const int SYM = 2131296318;
 			
-			// aapt resource value: 0x7f0900c9
-			public const int Subcat = 2131296457;
-			
 			// aapt resource value: 0x7f0900b8
 			public const int action0 = 2131296440;
 			
@@ -5824,9 +5821,6 @@ namespace GNIBMobile
 			// aapt resource value: 0x7f0900b9
 			public const int cancel_action = 2131296441;
 			
-			// aapt resource value: 0x7f0900c8
-			public const int cat = 2131296456;
-			
 			// aapt resource value: 0x7f09004c
 			public const int center = 2131296332;
 			
@@ -5851,9 +5845,6 @@ namespace GNIBMobile
 			// aapt resource value: 0x7f090040
 			public const int collapseActionView = 2131296320;
 			
-			// aapt resource value: 0x7f0900ce
-			public const int conemail = 2131296462;
-			
 			// aapt resource value: 0x7f0900a6
 			public const int container = 2131296422;
 			
@@ -5871,9 +5862,6 @@ namespace GNIBMobile
 			
 			// aapt resource value: 0x7f09007b
 			public const int customPanel = 2131296379;
-			
-			// aapt resource value: 0x7f0900cc
-			public const int declaration = 2131296460;
 			
 			// aapt resource value: 0x7f09008b
 			public const int decor_content_parent = 2131296395;
@@ -5904,9 +5892,6 @@ namespace GNIBMobile
 			
 			// aapt resource value: 0x7f09008f
 			public const int edit_query = 2131296399;
-			
-			// aapt resource value: 0x7f0900cd
-			public const int email = 2131296461;
 			
 			// aapt resource value: 0x7f090037
 			public const int end = 2131296311;
@@ -5977,14 +5962,11 @@ namespace GNIBMobile
 			// aapt resource value: 0x7f09006e
 			public const int image = 2131296366;
 			
-			// aapt resource value: 0x7f0900d9
-			public const int imageView1 = 2131296473;
+			// aapt resource value: 0x7f0900d1
+			public const int imageView1 = 2131296465;
 			
 			// aapt resource value: 0x7f0900c2
 			public const int info = 2131296450;
-			
-			// aapt resource value: 0x7f0900ca
-			public const int irpCheck = 2131296458;
 			
 			// aapt resource value: 0x7f090068
 			public const int italic = 2131296360;
@@ -6013,20 +5995,20 @@ namespace GNIBMobile
 			// aapt resource value: 0x7f090070
 			public const int list_item = 2131296368;
 			
-			// aapt resource value: 0x7f0900d0
-			public const int main_appbar = 2131296464;
+			// aapt resource value: 0x7f0900c8
+			public const int main_appbar = 2131296456;
+			
+			// aapt resource value: 0x7f0900cb
+			public const int main_scrollview = 2131296459;
+			
+			// aapt resource value: 0x7f0900ca
+			public const int main_tablayout = 2131296458;
+			
+			// aapt resource value: 0x7f0900c9
+			public const int main_toolbar = 2131296457;
 			
 			// aapt resource value: 0x7f0900d3
-			public const int main_scrollview = 2131296467;
-			
-			// aapt resource value: 0x7f0900d2
-			public const int main_tablayout = 2131296466;
-			
-			// aapt resource value: 0x7f0900d1
-			public const int main_toolbar = 2131296465;
-			
-			// aapt resource value: 0x7f0900db
-			public const int masked = 2131296475;
+			public const int masked = 2131296467;
 			
 			// aapt resource value: 0x7f0900bb
 			public const int media_actions = 2131296443;
@@ -6049,17 +6031,17 @@ namespace GNIBMobile
 			// aapt resource value: 0x7f09002f
 			public const int multiply = 2131296303;
 			
-			// aapt resource value: 0x7f0900dc
-			public const int nav_appoint = 2131296476;
+			// aapt resource value: 0x7f0900d4
+			public const int nav_appoint = 2131296468;
 			
-			// aapt resource value: 0x7f0900dd
-			public const int nav_cancel = 2131296477;
+			// aapt resource value: 0x7f0900d5
+			public const int nav_cancel = 2131296469;
 			
-			// aapt resource value: 0x7f0900de
-			public const int nav_notify = 2131296478;
+			// aapt resource value: 0x7f0900d6
+			public const int nav_notify = 2131296470;
 			
-			// aapt resource value: 0x7f0900df
-			public const int nav_preset = 2131296479;
+			// aapt resource value: 0x7f0900d7
+			public const int nav_preset = 2131296471;
 			
 			// aapt resource value: 0x7f0900b4
 			public const int navigationView1 = 2131296436;
@@ -6069,9 +6051,6 @@ namespace GNIBMobile
 			
 			// aapt resource value: 0x7f090042
 			public const int never = 2131296322;
-			
-			// aapt resource value: 0x7f0900cf
-			public const int noApplicant = 2131296463;
 			
 			// aapt resource value: 0x7f090029
 			public const int none = 2131296297;
@@ -6112,8 +6091,8 @@ namespace GNIBMobile
 			// aapt resource value: 0x7f090087
 			public const int radio = 2131296391;
 			
-			// aapt resource value: 0x7f0900d7
-			public const int relativeLayout1 = 2131296471;
+			// aapt resource value: 0x7f0900cf
+			public const int relativeLayout1 = 2131296463;
 			
 			// aapt resource value: 0x7f090055
 			public const int right = 2131296341;
@@ -6187,14 +6166,14 @@ namespace GNIBMobile
 			// aapt resource value: 0x7f09004f
 			public const int selected = 2131296335;
 			
-			// aapt resource value: 0x7f0900d4
-			public const int shellcontent_appbar = 2131296468;
+			// aapt resource value: 0x7f0900cc
+			public const int shellcontent_appbar = 2131296460;
 			
-			// aapt resource value: 0x7f0900d6
-			public const int shellcontent_scrollview = 2131296470;
+			// aapt resource value: 0x7f0900ce
+			public const int shellcontent_scrollview = 2131296462;
 			
-			// aapt resource value: 0x7f0900d5
-			public const int shellcontent_toolbar = 2131296469;
+			// aapt resource value: 0x7f0900cd
+			public const int shellcontent_toolbar = 2131296461;
 			
 			// aapt resource value: 0x7f090083
 			public const int shortcut = 2131296387;
@@ -6280,11 +6259,8 @@ namespace GNIBMobile
 			// aapt resource value: 0x7f09005a
 			public const int textStart = 2131296346;
 			
-			// aapt resource value: 0x7f0900d8
-			public const int textView1 = 2131296472;
-			
-			// aapt resource value: 0x7f0900cb
-			public const int textView2 = 2131296459;
+			// aapt resource value: 0x7f0900d0
+			public const int textView1 = 2131296464;
 			
 			// aapt resource value: 0x7f0900af
 			public const int text_input_password_toggle = 2131296431;
@@ -6352,8 +6328,8 @@ namespace GNIBMobile
 			// aapt resource value: 0x7f09001b
 			public const int view_offset_helper = 2131296283;
 			
-			// aapt resource value: 0x7f0900da
-			public const int visible = 2131296474;
+			// aapt resource value: 0x7f0900d2
+			public const int visible = 2131296466;
 			
 			// aapt resource value: 0x7f090043
 			public const int withText = 2131296323;
@@ -6650,31 +6626,28 @@ namespace GNIBMobile
 			public const int notification_template_part_time = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int PresetFragment = 2130903104;
+			public const int RootLayout = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int RootLayout = 2130903105;
+			public const int select_dialog_item_material = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int select_dialog_item_material = 2130903106;
+			public const int select_dialog_multichoice_material = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int select_dialog_multichoice_material = 2130903107;
+			public const int select_dialog_singlechoice_material = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int select_dialog_singlechoice_material = 2130903108;
+			public const int ShellContent = 2130903108;
 			
 			// aapt resource value: 0x7f030045
-			public const int ShellContent = 2130903109;
+			public const int Splash = 2130903109;
 			
 			// aapt resource value: 0x7f030046
-			public const int Splash = 2130903110;
+			public const int support_simple_spinner_dropdown_item = 2130903110;
 			
 			// aapt resource value: 0x7f030047
-			public const int support_simple_spinner_dropdown_item = 2130903111;
-			
-			// aapt resource value: 0x7f030048
-			public const int Troubleshoot = 2130903112;
+			public const int Troubleshoot = 2130903111;
 			
 			static Layout()
 			{
